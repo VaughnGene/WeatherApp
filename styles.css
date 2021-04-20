@@ -1,6 +1,17 @@
+/* this is here incase the background image is unable to load. its the fallback background */
 body {
     height: 100%;
     background-color: cadetblue;
     background: linear-gradient(to right, rgb(121, 145, 187), rgb(174,201, 248), rgb(148, 186, 252))_;
+}
+
+.wpBackground {
+    height: 100vh;
+    min-height: 500px;
+    background: url(images/WeatherPrpBG.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
