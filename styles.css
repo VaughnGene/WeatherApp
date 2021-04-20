@@ -1,4 +1,5 @@
 /* this is here incase the background image is unable to load. its the fallback background */
+
 body {
     height: 100%;
     background-color: cadetblue;
