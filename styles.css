@@ -1,10 +1,27 @@
-/* this is here incase the background image is unable to load. its the fallback background */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
+/* this is here incase the background image is unable to load. its the fallback background */
 body {
     height: 100%;
     background-color: cadetblue;
     background: linear-gradient(to right, rgb(121, 145, 187), rgb(174,201, 248), rgb(148, 186, 252))_;
 }
+
+#wpMain {
+    padding: 20px;
+    color: white;
+    resize: vertical;
+}
+
+#wpCurrent {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+#location {
+    font-weight: bolder;
+}
+
 
 .wpBackground {
     height: 100vh;
@@ -16,3 +33,15 @@ body {
     background-size: cover;
 }
 
+#wpTitle {
+    /* Mont serrat font does not allow a border since the font is very thin. Maybe add drop shadow instead in the future. */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    color: white; 
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.5px;
+
+}
