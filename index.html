@@ -18,12 +18,15 @@
 <body>
     <div class="wpBackground">
         <div class="d-flex flex column h-100">
+            <!-- Main container for the rows-->
             <div class="container" id="wpMain">
+                <!-- Row 1 of 3 -->
                 <div class="row">
                     <div id="wpTitle" class="col text-center">
                         WEATHER PRO
                     </div>
                 </div>
+                <!--Row 2 of 3 -->
                 <div class="row">
                     <div id="wpCurrent" class="col">
                         <div class="row">
@@ -39,8 +42,23 @@
                                 <img id="weatherIcon" class="img-fluid" src="images/MostlySunny.png">
                             </div>
                         </div>
-                        <div class="row"></div>
                     </div>
+                </div>
+                <!-- Row 3 of 3 -->
+                <div class="row">
+                    <div id="wpConditions" class="col-md">
+                        <div class="row">
+                            <div id="percipitation" class="col=md">Percipitation 20%</div>
+                        </div>
+                        <div class="row">
+                            <div id="humidity" class="col=md">Humidity 95%</div>
+                        </div>
+                        <div class="row">
+                            <div id="wind" class="col=md">Wind 14mph</div>
+                        </div>
+                    </div>
+                    <div id="forecast" class="col=md"></div>
+
                 </div>
             </div>
         </div>
